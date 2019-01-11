@@ -1,13 +1,13 @@
-backend:
-  name: github
-  branch: master
-  repo: haackr/gatsby2-tutorial
-
 # backend:
-#   name: git-gateway
-#   accept_roles:
-#     - admin
-#     - contributor
+#   name: github
+#   branch: master
+#   repo: haackr/gatsby2-tutorial
+
+backend:
+  name: git-gateway
+  accept_roles:
+    - admin
+    - contributor
 
 media_folder: static/img
 public_folder: /img

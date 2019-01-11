@@ -26,6 +26,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "hidden" default: "{{slug}}"}
+      - { label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}"}
       - { label: "Date", name: "date", widget: "datetime"}
       - { label: "Post", name: "body", widget: "markdown" }

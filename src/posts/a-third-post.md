@@ -1,5 +1,7 @@
 ---
 title: A Third Post
+slug: a-third-post
+date: 2019-01-11
 ---
 # Woah
 

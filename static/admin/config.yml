@@ -5,9 +5,6 @@
 
 backend:
   name: git-gateway
-  accept_roles:
-    - admin
-    - contributor
 
 media_folder: static/img
 public_folder: /img
